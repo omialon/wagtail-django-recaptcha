@@ -44,7 +44,7 @@ else:
 INSTALLED_APPS = wagtail_apps + [
     'home',
 
-    'captcha',
+    'django_recaptcha',
     'wagtailcaptcha',
 
     'modelcluster',
